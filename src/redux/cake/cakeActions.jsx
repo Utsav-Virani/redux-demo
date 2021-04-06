@@ -1,8 +1,8 @@
-import { BUY_CAKE } from "./CakeActionType"
+import { BUY_CAKE } from "./CakeActionType";
 
-export const buyCake = (number = 1) =>{
+export const buyCake = (number = 1) => {
     return {
         type: BUY_CAKE,
-        paylod:number,
-    }
-}
+        paylod: number,
+    };
+};
